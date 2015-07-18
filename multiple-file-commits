@@ -1,0 +1,10 @@
+#
+A repository consist of a collection of files
+a commit code just change one file or it
+change several files in the group
+#
+very useful to use git log and git diff to look for changes in files.
+#
+#
+Setup the git workspace following the instructions
+very useful feature to manage files

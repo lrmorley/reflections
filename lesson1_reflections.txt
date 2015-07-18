@@ -1,0 +1,8 @@
+#
+#
+This lesson focuses on understanding the need for version control when files change
+especially using the diff -u command
+#
+#
+Many applications online does have version control like dropbox and google docs
+very useful to automatically keep track of things
