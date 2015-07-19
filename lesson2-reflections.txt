@@ -29,4 +29,66 @@ How to write a commit message
 You're about to make your first commit to your reflections repository. When you do this, you'll need to write a commit message describing your changes. If you followed the instructions in the "Setting Up Your Workspace" video for your platform near the end of Lesson 1, the editor you chose will appear as soon as you run git commit and allow you to write a commit message. If you get an error message, you should try revisiting the instructions in Lesson 1 and make sure your text editor is set up properly.
 
 You can also specify a commit message via the command line by running git commit -m "Commit message" instead of just git commit. It's still a good idea to get an editor set up, since this will make it easier to write long commit messages that fully describe the change.
+#
+Leave 'detached HEAD' state
+
+Right now, your HEAD should still be 'detached' from Lesson 1 when you checked out an old commit. To fix that, run the command git checkout master. You'll learn more about what this command does later this lesson.
+Fix the delay bug
+
+Now, if you were following along with Caroline, you may have already fixed the bug in the Asteroids repository. If not, go ahead and make the change and add it to the staging area now.
+
+In game.js find the statement if (this.delayBeforeBullet <= 0) { (should be on line 423). On the next line, insert this.delayBeforeBullet = 10;
+Stage your change
+
+Then stage your change by adding the game.js file to the staging area. If youre having trouble remembering how to stage changes, use this video as a refresher.
+Commit your change
+
+Now, go ahead and commit this change. Make sure to use a meaningful commit message! If you have trouble remember how to commit, refer to this video.
+
+When youre finished committing your change, click Next.
+
+#
+
+Reflect: Commit Size
+
+Now that youve committed changes using the staging area, go add the following question and your thoughts on it to your lesson_2_reflections file:
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You may also want to commit your changes to the file. When you're ready to move on, click "Next" and Sarah will go over a concept called branching.
+
+#
+
+
+Reflect: When to Use Branches
+
+Now that youve learned how to create a branch in Git, go add the following question and your thoughts on it to your reflections file:
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+You may also want to commit your changes to the file. When you're ready to move on, click "Next" to hear a perspective from an experienced Git user.
+
+#
+
+branch are useful for many purposes especially to do experiments to commit new fixes
+#
+
+Reflect: Merging Two Branches
+
+Now that youve learned how to use Git to merge branches together, go add the following question and your thoughts on it to your reflections file:
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+You may also want to commit your changes to the file. When you're ready to move on, click "Next" and Sarah will explain why this automatic merge process won't always be possible and what happens instead.
+
+merging branches
+
+#
+Reflect: Automatic vs. Manual Merging
+
+Now that youve learned when Git will not be able to automatically merge branches, and what happens when it cant, go add the following question and your thoughts on it to your reflections file:
+
+What are the pros and cons of Gits automatic merging vs. always doing merges manually?
+
+You may also want to commit your changes to the file. When you're ready to move on, click "Next" to hear from Jeffrey again about how he uses some of the tools you've learned about in this lesson.
 
