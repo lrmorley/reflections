@@ -24,4 +24,13 @@ Why might you want to always pull changes manually rather than having Git automa
 
 You may also want to commit and push your changes. When you're finished, click "Next" and Sarah will go over what to do if you want to share your changes to a repository and you don't have permission to modify the original.
 
+Reflect: Forks, Clones, and Branches
+
+Now that you've seen how you can make a copy of a repository on GitHub by forking it, go add the the following question and your thoughts on it to your reflections file:
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+You may also want to commit and push your changes. When you're finished, click "Next".
+Fork is only to clone on github.. Clone is either local or github to local
+Branches are created with the branch command
 
